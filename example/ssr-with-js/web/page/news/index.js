@@ -9,9 +9,9 @@ const mockData = {
   5: `Product advertisement and promotion on YouTube is a function of the dedicated audience (or influence) of the individual (influencer) anchoring the advertising or promotion.`
 }
 
-function News (props) {
+function News(props) {
   return (
-    <div className='news-container' >
+    <div className='news-container'>
       文章详情: {props.newsDetail}
     </div>
   )
@@ -19,9 +19,17 @@ function News (props) {
 
 News.getInitialProps = (ctx) => {
   const newsId = __isBrowser__ ? ctx.match.params.id : ctx.params.id
-  return Promise.resolve({
-    newsDetail: mockData[newsId]
-  })
-}
+  // return Promise.resolve({
+  //   newsDetail: mockData[newsId]
+  // })
+
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve({
+        newsDetail: mockData[newsId]
+      });
+    }, 1000);
+  });
+};
 
 export default News

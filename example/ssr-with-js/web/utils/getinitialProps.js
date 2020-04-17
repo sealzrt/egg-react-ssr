@@ -51,7 +51,13 @@ function GetInitialProps(WrappedComponent) {
       console.log(`${WrappedComponent.name} >>> render >>>>>>>>>>>>>>>>>>>>> begin`);
       // 只有在首次进入页面需要将window.__INITIAL_DATA__作为props，路由切换时不需要
       const {getProps, extraProps} = this.state;
-      const initData = getProps ? {} : window.__INITIAL_DATA__;
+      // const initData = getProps ? {} : window.__INITIAL_DATA__;
+      let initData = {};
+      if(!getProps){
+        initData = window.__INITIAL_DATA__;
+        // 清除初始化数据
+        // window.__INITIAL_DATA__ = {};
+      }
       console.log(`${WrappedComponent.name} >>> initData`, initData);
       console.log(`${WrappedComponent.name} >>> extraProps`, extraProps);
       console.log(`${WrappedComponent.name} >>> render >>>>>>>>>>>>>>>>>>>>> end`);
