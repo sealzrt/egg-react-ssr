@@ -2,8 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter, StaticRouter, Route } from 'react-router-dom'
 import defaultLayout from '@/layout'
-import { getWrappedComponent, getComponent } from 'ykfe-utils'
+import { getComponent } from 'ykfe-utils'
 import { routes as Routes } from '../config/config.ssr'
+import getWrappedComponent from './utils/getinitialProps';
 
 const clientRender = async () => {
   // 客户端渲染||hydrate
