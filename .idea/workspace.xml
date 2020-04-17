@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec6cc8c7-466b-4b7a-bc74-c883ca84a8be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/ssr-with-js/web/utils/getinitialProps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ssr-with-js/web/entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/ssr-with-js/web/entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ssr-with-js/web/utils/getinitialProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/ssr-with-js/web/utils/getinitialProps.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/ssr-with-js/web/utils/getinitialProps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+            <state relative-caret-position="281">
+              <caret line="42" column="111" selection-start-line="42" selection-start-column="111" selection-end-line="42" selection-end-column="111" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -250,15 +247,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587112799435</updated>
-      <workItem from="1587112800598" duration="7633000" />
+      <workItem from="1587112800598" duration="7713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7633000" />
+    <option name="totallyTimeSpent" value="7713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
@@ -267,7 +265,7 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.36022252" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.39638385" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -419,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/ssr-with-js/web/utils/getinitialProps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="281">
+          <caret line="42" column="111" selection-start-line="42" selection-start-column="111" selection-end-line="42" selection-end-column="111" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>

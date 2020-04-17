@@ -12,7 +12,7 @@ function GetInitialProps(WrappedComponent) {
     }
 
     componentDidMount() {
-      const props = this.props
+      const props = this.props;
       console.log(`${WrappedComponent.name} >>> componentDidMount() ******************* begin`, Date.now());
       console.log('props.history.action', props.history.action);
 
@@ -25,7 +25,7 @@ function GetInitialProps(WrappedComponent) {
       const getProps = !window.__USE_SSR__ || (props.history && props.history.action === 'PUSH');
       console.log(`${WrappedComponent.name} >>> 是否需要调用 'getInitialProps' 获取初始化数据: `, getProps);
       if (getProps) {
-        this.getInitialProps()
+        this.getInitialProps();
       }
 
       console.log(`${WrappedComponent.name} >>> componentDidMount() ******************* end`, Date.now());
@@ -40,7 +40,7 @@ function GetInitialProps(WrappedComponent) {
       console.log(`${WrappedComponent.name} >>> getInitialProps()`);
       // csr首次进入页面以及csr/ssr切换路由时才调用getInitialProps
       const props = this.props;
-      const extraProps = WrappedComponent.getInitialProps ? await WrappedComponent.getInitialProps(props) : {}
+      const extraProps = WrappedComponent.getInitialProps ? await WrappedComponent.getInitialProps(props) : {};
       this.setState({
         extraProps,
         getProps: true
